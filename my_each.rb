@@ -11,6 +11,7 @@ end
 
 collection = [1, 2, 3, 4]
 my_each(collection) do |i|
-return i
+puts i 
+return my_each
 end
 
